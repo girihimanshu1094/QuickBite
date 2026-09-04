@@ -20,7 +20,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.json({
     success: true,
-    message: "GetHired API is running"
+    message: "Quickbite API is running"
   });
 });
 
