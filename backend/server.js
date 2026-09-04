@@ -16,6 +16,14 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// for backend testing
+app.get("/", (req, res) => {
+  res.json({
+    success: true,
+    message: "GetHired API is running"
+  });
+});
+
 // Base API route
 app.get('/api', (req, res) => {
   res.json({
