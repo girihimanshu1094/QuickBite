@@ -206,7 +206,7 @@ Nodemailer is used to send verification emails.
 * Express.js
 * REST API
 * JWT Authentication
-* Nodemailer
+* Brevo
 
 ### Database
 
@@ -310,13 +310,11 @@ JWT_SECRET=your_jwt_secret
 
 CLIENT_URL=http://localhost:5173
 
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_google_app_password
-
 RAZORPAY_KEY_ID=your_razorpay_key_id
 RAZORPAY_KEY_SECRET=your_razorpay_key_secret
+
+BREVO_API_KEY=API_KEY
+EMAIL_FROM=example@gmail.com
 ```
 
 ### Frontend `.env`
